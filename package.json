@@ -1,0 +1,28 @@
+{
+  "name": "mesh-graphql",
+  "packageManager": "yarn@4.1.1",
+  "module": "./dist/index.js",
+  "author": "",
+  "license": "",
+  "exports": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "mesh build",
+    "start": "node --import tsx ./server.ts"
+  },
+  "dependencies": {
+    "@graphql-mesh/cli": "^0.90.5",
+    "@graphql-mesh/http": "^0.99.5",
+    "@graphql-mesh/openapi": "^0.100.8",
+    "@graphql-mesh/postgraphile": "^0.98.4",
+    "@graphql-mesh/runtime": "^0.99.5",
+    "express": "^4.19.2",
+    "graphql": "^16.8.1",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4",
+    "tsx": "4.7.2",
+    "typescript": "5.4.5"
+  }
+}

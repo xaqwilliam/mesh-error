@@ -1,0 +1,11 @@
+sources:
+  - name: CRUD
+    handler:
+      postgraphile:
+        connectionString: postgres://postgres:postgres@127.0.0.1/postgres
+  - name: Stripe
+    handler:
+      openapi:
+        source: https://raw.githubusercontent.com/stripe/openapi/master/openapi/spec3.json
+        operationHeaders:
+          Authorization: Bearer xxx

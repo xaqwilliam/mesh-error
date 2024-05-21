@@ -1,0 +1,8 @@
+[96msrc/resources/auth0/resolvers.ts[0m:[93m4[0m:[93m45[0m - [91merror[0m[90m TS2307: [0mCannot find module '@anomaly-platform/graphql-types' or its corresponding type declarations.
+
+[7m4[0m import { MutationSendInviteEmailArgs } from '@anomaly-platform/graphql-types'
+[7m [0m [91m                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Found 1 error in src/resources/auth0/resolvers.ts[90m:4[0m
+
